@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MonkeyFinder.View.MainPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:MonkeyFinder.Model"
+             xmlns:behaviors="clr-namespace:MonkeyFinder.Behaviors"
+             xmlns:viewmodel="clr-namespace:MonkeyFinder.ViewModel"
+             xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+             Title="Monkeys"
+             x:DataType="viewmodel:MonkeysViewModel"
+             x:Name="this">
+
+  <VerticalStackLayout>
+
+    <Button Text="Show Other Button"
+            ImageSource="plus_icon.png"
+            Clicked="Button_Clicked">
+      <Button.Behaviors>
+        <behaviors:IconTintColorBehavior TintColor="Red" />
+      </Button.Behaviors>
+    </Button>
+
+    <Button x:Name="OtherButton"
+            Text="Other Button"
+            IsVisible="False"
+            ImageSource="plus_icon.png">
+      <Button.Behaviors>
+        <behaviors:IconTintColorBehavior TintColor="Red" />
+      </Button.Behaviors>
+    </Button>
+
+  </VerticalStackLayout>
+
+</ContentPage>

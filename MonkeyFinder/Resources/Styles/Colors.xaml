@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+  <!-- Primary -->
+  <Color x:Key="PrimaryD100">#34295B</Color>
+  <Color x:Key="PrimaryD200">#413972</Color>
+  <Color x:Key="PrimaryD300">#504687</Color>
+  <Color x:Key="PrimaryD400">#524C8B</Color>
+  <Color x:Key="PrimaryD500">#585494</Color>
+  <Color x:Key="PrimaryL100">#6E6DA3</Color>
+  <Color x:Key="PrimaryL200">#817BA3</Color>
+  <Color x:Key="PrimaryL300">#A7A9C9</Color>
+  <Color x:Key="PrimaryL400">#D9D5EB</Color>
+  <Color x:Key="PrimaryL500">#EBE9F5</Color>
+  <Color x:Key="PrimaryL600">#F2F1F9</Color>
+
+  <!-- Secondary -->
+  <Color x:Key="SecondaryD100">#130F2E</Color>
+  <Color x:Key="SecondaryD200">#1E1E45</Color>
+  <Color x:Key="SecondaryD300">#262651</Color>
+  <Color x:Key="SecondaryD400">#2D2E5B</Color>
+  <Color x:Key="SecondaryD500">#333562</Color>
+  <Color x:Key="SecondaryL100">#4D5076</Color>
+  <Color x:Key="SecondaryL200">#696C8C</Color>
+  <Color x:Key="SecondaryL300">#53586E</Color>
+  <Color x:Key="SecondaryL400">#BCBECE</Color>
+  <Color x:Key="SecondaryL500">#E4E5EB</Color>
+
+  <!-- Emphasis -->
+  <Color x:Key="Emphasis1">#3A3847</Color>
+  <Color x:Key="Emphasis2">#514D66</Color>
+  <Color x:Key="Emphasis3">#817E94</Color>
+  <Color x:Key="Emphasis4">#E0DEEB</Color>
+  <Color x:Key="Emphasis5">#F4F3FB</Color>
+
+  <!-- State -->
+  <Color x:Key="StateNeutral">#0F5166</Color>
+  <Color x:Key="StateSuccess">#265432</Color>
+  <Color x:Key="StateWarning">#744602</Color>
+  <Color x:Key="StateDanger">#87300D</Color>
+  <Color x:Key="StateError">#9E0025</Color>
+  <Color x:Key="StateNeutralSurface">#E1F5FC</Color>
+  <Color x:Key="StateSuccessSurface">#E3FCEA</Color>
+  <Color x:Key="StateWarningSurface">#FFEFD8</Color>
+  <Color x:Key="StateDangerSurface">#FCEAE1</Color>
+  <Color x:Key="StateErrorSurface">#FFEBF1</Color>
+
+  <!-- Priority -->
+  <Color x:Key="PriorityHigh">#C50000</Color>
+  <Color x:Key="PriorityMediumHigh">#F85C05</Color>
+  <Color x:Key="PriorityMediumLow">#FFD84D</Color>
+  <Color x:Key="PriorityMedium">#E28903</Color>
+  <Color x:Key="PriorityLow">#3E8B54</Color>
+
+  <!-- Branding -->
+  <Color x:Key="BrandingPurple">#4B3BB9</Color>
+
+  <!-- Original Maui Colors -->
+  <Color x:Key="White">White</Color>
+  <Color x:Key="Black">Black</Color>
+  <Color x:Key="Gray100">#E1E1E1</Color>
+  <Color x:Key="Gray200">#C8C8C8</Color>
+  <Color x:Key="Gray300">#ACACAC</Color>
+  <Color x:Key="Gray400">#919191</Color>
+  <Color x:Key="Gray500">#6E6E6E</Color>
+  <Color x:Key="Gray600">#404040</Color>
+  <Color x:Key="Gray900">#212121</Color>
+  <Color x:Key="Gray950">#141414</Color>
+
+  <!-- TODO: Do we need to define brushes? -->
+  <!-- 
+  <SolidColorBrush x:Key="PrimaryD100Brush" Color="{StaticResource PrimaryD100}"/>
+  <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+  <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+  <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}"/>
+  <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}"/>
+  <SolidColorBrush x:Key="Gray300Brush" Color="{StaticResource Gray300}"/>
+  <SolidColorBrush x:Key="Gray400Brush" Color="{StaticResource Gray400}"/>
+  <SolidColorBrush x:Key="Gray500Brush" Color="{StaticResource Gray500}"/>
+  <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}"/>
+  <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
+  <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}"/>
+  -->
+
+  <!-- TODO: Do we need these colors from the original Maui color set? -->
+  <!--
+  <Color x:Key="Yellow100Accent">#F7B548</Color>
+  <Color x:Key="Yellow200Accent">#FFD590</Color>
+  <Color x:Key="Yellow300Accent">#FFE5B9</Color>
+  <Color x:Key="Cyan100Accent">#28C2D1</Color>
+  <Color x:Key="Cyan200Accent">#7BDDEF</Color>
+  <Color x:Key="Cyan300Accent">#C3F2F4</Color>
+  <Color x:Key="Blue100Accent">#3E8EED</Color>
+  <Color x:Key="Blue200Accent">#72ACF1</Color>
+  <Color x:Key="Blue300Accent">#A7CBF6</Color>
+  -->
+</ResourceDictionary>
